@@ -1,0 +1,19 @@
+{
+  "lambdaLayers": [],
+  "permissions": {
+    "storage": {
+      "clothingimages": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ],
+      "clothingitems": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "resourceName": "clothingimages",
+  "policyUUID": "deb0fdeb",
+  "bucketName": "clothingshop4a73b49e452046daa1481a9134f12fab",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

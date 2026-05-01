@@ -1,0 +1,38 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-clothingshop-dev-77c6e-authRole",
+      "UnauthRoleArn": "arn:aws:iam::851043415881:role/amplify-clothingshop-dev-77c6e-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::851043415881:role/amplify-clothingshop-dev-77c6e-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-clothingshop-dev-77c6e-deployment",
+      "UnauthRoleName": "amplify-clothingshop-dev-77c6e-unauthRole",
+      "StackName": "amplify-clothingshop-dev-77c6e",
+      "StackId": "arn:aws:cloudformation:eu-north-1:851043415881:stack/amplify-clothingshop-dev-77c6e/161b5e00-3f4d-11f1-860b-0ed90aa4e50b",
+      "AmplifyAppId": "di35hd11soq7w",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-clothingshop-dev-77c6e-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "clothingshop": {}
+      },
+      "function": {
+        "clothingshopc2302372": {
+          "deploymentBucketName": "amplify-clothingshop-dev-77c6e-deployment",
+          "s3Key": "amplify-builds/clothingshopc2302372-65585279694674616762-build.zip"
+        },
+        "clothingshope8f978ab": {
+          "deploymentBucketName": "amplify-clothingshop-dev-77c6e-deployment",
+          "s3Key": "amplify-builds/clothingshope8f978ab-49746c596d6e46432f53-build.zip"
+        }
+      },
+      "api": {
+        "itemsapi": {}
+      },
+      "storage": {
+        "clothingimages": {},
+        "clothingitems": {}
+      }
+    }
+  }
+}
