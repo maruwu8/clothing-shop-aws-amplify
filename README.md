@@ -2,8 +2,10 @@
 
 **Mara-Sofia Stan** | Masters: SIMPRE, Group 1147
 
-- 🎥 Video presentation: _[link to be added]_
-- 🌐 Published app: _[link to be added]_
+- 🎥 Video presentation: [`the-clothing-shop-demo.mov`](./the-clothing-shop-demo.mov)
+- 🌐 Published app: https://main.di35hd11soq7w.amplifyapp.com
+
+> ⚠️ **Access control enabled.** The hosted site is password-protected at the CloudFront edge to avoid unexpected AWS charges. The public `GET /items` endpoint is hit on every dashboard visit, so we gate the frontend to make sure only invited graders can trigger it. Username and password are shared separately with the course staff.
 
 ---
 
@@ -19,9 +21,25 @@ The Clothing Shop is a serverless web application that allows users to buy and s
 - Database: Amazon DynamoDB
 - File Storage: Amazon S3
 
+### 🏗️ Architecture Diagram
+
+![AWS Architecture](./screenshots/cloud-high-lvl-diagram.png)
+
 ---
 
-## 2. 💡 Problem Description
+## 2. 🖼️ App Preview
+
+**Landing page** — unauthenticated visitors land here and can either sign up, log in, or jump straight to the public browse view.
+
+![Landing page](./screenshots/01-landing-page.png)
+
+**Browse page** — the catalog of listings, fetched from the public `GET /items` endpoint. No account required.
+
+![Browse page with clothing listings](./screenshots/02-browse-page.png)
+
+---
+
+## 3. 💡 Problem Description
 
 Online marketplaces for second-hand clothing are growing in popularity, but many existing platforms are either too complex for casual sellers or lack a clean, modern user experience. Students and young professionals often have clothing they no longer wear but have no simple way to list and sell these items within their community.
 
@@ -35,7 +53,7 @@ The solution leverages cloud-native AWS services to achieve a scalable, cost-eff
 
 ---
 
-## 3. 🔌 API Description
+## 4. 🔌 API Description
 
 The backend exposes a REST API through Amazon API Gateway, which proxies all requests to a single AWS Lambda function running an Express.js server via `@vendia/serverless-express`.
 
@@ -66,11 +84,7 @@ The backend exposes a REST API through Amazon API Gateway, which proxies all req
 
 ---
 
-## 4. 🔄 Data Flow
-
-### 🏗️ Architecture Diagram
-
-![AWS Architecture](./cloud-high-lvl-diagram.png)
+## 5. 🔄 Data Flow
 
 ### Request / Response Examples
 
