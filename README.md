@@ -2,7 +2,7 @@
 
 **Mara-Sofia Stan** | Masters: SIMPRE, Group 1147
 
-- 🎥 Video presentation: [`the-clothing-shop-demo.mov`](./the-clothing-shop-demo.mov)
+- 🎥 Video presentation: https://youtu.be/O5ryHZXYBVw ([local copy](./the-clothing-shop-demo.mov))
 - 🌐 Published app: https://main.di35hd11soq7w.amplifyapp.com
 
 > ⚠️ **Access control enabled.** The hosted site is password-protected at the CloudFront edge to avoid unexpected AWS charges. The public `GET /items` endpoint is hit on every dashboard visit, so we gate the frontend to make sure only invited graders can trigger it. Username and password are shared separately with the course staff.
