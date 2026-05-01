@@ -52,3 +52,8 @@ docs/
 
 # Microsoft Word lock files (created while a .docx is open)
 ~$*
+
+# Amplify frontend config (contains only public IDs: Cognito pools, API Gateway URL, S3
+# bucket name — all safe to ship in a browser bundle, and needed for Amplify Hosting
+# to build from GitHub without regenerating backend config).
+!src/amplifyconfiguration.json

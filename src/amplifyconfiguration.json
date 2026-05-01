@@ -1,0 +1,40 @@
+{
+  "aws_project_region": "eu-north-1",
+  "aws_cognito_identity_pool_id": "eu-north-1:03625dde-147a-4e1d-98a3-09607bd48b35",
+  "aws_cognito_region": "eu-north-1",
+  "aws_user_pools_id": "eu-north-1_ErJm1YHTC",
+  "aws_user_pools_web_client_id": "20dfiv8t34hpbph0boqbvnoft",
+  "oauth": {},
+  "aws_cognito_username_attributes": [],
+  "aws_cognito_social_providers": [],
+  "aws_cognito_signup_attributes": [
+    "EMAIL"
+  ],
+  "aws_cognito_mfa_configuration": "OFF",
+  "aws_cognito_mfa_types": [
+    "SMS"
+  ],
+  "aws_cognito_password_protection_settings": {
+    "passwordPolicyMinLength": 8,
+    "passwordPolicyCharacters": []
+  },
+  "aws_cognito_verification_mechanisms": [
+    "EMAIL"
+  ],
+  "aws_cloud_logic_custom": [
+    {
+      "name": "itemsapi",
+      "endpoint": "https://e0hyda081i.execute-api.eu-north-1.amazonaws.com/dev",
+      "region": "eu-north-1"
+    }
+  ],
+  "aws_user_files_s3_bucket": "clothingshop4a73b49e452046daa1481a9134f12fab77c6e-dev",
+  "aws_user_files_s3_bucket_region": "eu-north-1",
+  "aws_dynamodb_all_tables_region": "eu-north-1",
+  "aws_dynamodb_table_schemas": [
+    {
+      "tableName": "clothingitems-dev",
+      "region": "eu-north-1"
+    }
+  ]
+}
